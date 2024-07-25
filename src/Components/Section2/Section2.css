@@ -1,0 +1,144 @@
+body {
+    color: #2f1c6a;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.h-pricing-table {
+    text-align: center;
+}
+
+.u-section-spaces {
+    /*padding-bottom: 32px;*/
+    /*padding-top: 32px;*/
+}
+
+.h2-section-one-col__content {
+    padding: 0px 40px;
+}
+
+.h-pricing-table__info {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.t-h2, h2 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.h-carousel__wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.h-carousel-track {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-carousel-track__indicator-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.h-carousel-track__indicator-item--active {
+    background-color: #8c85ff;
+}
+
+.h-carousel-track__container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.h-carousel-track__overflow-container {
+    overflow: hidden;
+}
+
+.h-carousel-track__cards-container {
+    display: flex;
+    transition: all 1.5s ease;
+    /*transform: translateX(-699.733px);*/
+}
+
+.h-pricing-card__container {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #d5dfff;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    padding: 31px 23px;
+    margin: 20px;
+}
+
+.h-pricing-card__description {
+    text-align: center;
+    font-size: 14px;
+}
+
+.h-pricing-card__badge {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    width: 100%;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+
+}
+
+.h-product-badge-bg-danger {
+    background-color: #fc5185;
+}
+
+.h-product-badge {
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding: 8px 68px;
+    position: absolute;
+    text-align: center;
+}
+
+.h-product-badge-text-light {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+.h-product-badge {
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding: 8px 68px;
+    position: absolute;
+    text-align: center;
+}
+
+.h-pricing-card__title {
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.h-pricing-card__description {
+    margin-bottom: 24px;
+    min-height: 48px;
+}

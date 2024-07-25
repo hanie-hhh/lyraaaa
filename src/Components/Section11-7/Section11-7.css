@@ -1,0 +1,111 @@
+.SECTION117-h-grid {
+    color: #2f1c6a;
+    font-family: "DM sans";
+    font-size: 16px;
+    line-height: 24px;
+    box-sizing: border-box;
+    font-weight: 100;
+    text-decoration: none;
+    vertical-align: baseline;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+.SECTION117-h-section-one-col {
+    color: #2f1c6a;
+    font-family: inherit;
+    font-size: 14px;
+    direction: ltr;
+    unicode-bidi: isolate;
+    text-align: center;
+    background-color: #fff;
+}
+
+.SECTION117-h-section-one-col__content {
+    grid-column-gap: 16px;
+    column-gap: 16px;
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 40px;
+    grid-template-columns: 1fr;
+    max-width: 824px;
+}
+
+.SECTION117-h-text-button-section__title {
+    color: #2f1c6a;
+    font-family: "DM sans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.SECTION117-h-button {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    min-height: 48px;
+    padding: 12px 16px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 30px auto auto;
+    max-width: 248px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .16);
+    background-color: #673de6;
+
+}
+
+.SECTION117-h-button:hover {
+    background-color: #5025d1;
+}
+
+.SECTION117-h-text-button-section__features-list {
+    display: flex;
+    flex-direction: column;
+    margin: 16px auto 0;
+    max-width: 248px;
+}
+
+.SECTION117-h-text-button-section__feature-item {
+    display: inline-flex;
+}
+
+.SECTION117-icon-check {
+    color: #00b090;
+    width: 16px;
+    height: 24px
+}
+
+.SECTION117-h-text-button-section__feature-item p {
+    margin: 0 0 0 8px;
+
+}
+
+.SECTION117-t-h2, h2 {
+    font-size: 24px;
+}
+
+@media (min-width: 1025px) {
+    .SECTION117-t-h2, h2 {
+        font-size: 36px;
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .SECTION117-t-h2, h2 {
+        font-size: 28px;
+    }
+
+}

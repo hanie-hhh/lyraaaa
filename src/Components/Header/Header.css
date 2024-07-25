@@ -1,0 +1,252 @@
+* {
+    font-family: "DM Sans", serif
+}
+
+.HEADER-hh-grid {
+    padding-top: 9em;
+    grid-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 540px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.HEADER-hh-header-two-cols__wrapper {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 1;
+}
+
+.HEADER-hh-header-two-cols__left-col {
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.HEADER-hh-features-header__info-wrapper {
+    text-align: center;
+}
+
+.HEADER-hh-features-header__heading-wrapper {
+    margin-bottom: 16px;
+}
+
+.HEADER-t-h2, h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.HEADER-header__overline--homepage {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.HEADER-t-headline-pt {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.HEADER-header__overline-discount {
+    color: #673de6;
+    font-weight: 700;
+}
+
+.HEADER-header__list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.HEADER-header__list-item {
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.HEADER-icon-check {
+    display: inline-flex;
+    margin-right: 10px;
+    color: #00b090;
+}
+
+.HEADER-circle-qh {
+    fill: #2f1c6a;
+    margin-left: 10px;
+}
+
+.HEADER-circle-qhh {
+    color: #54549d;
+    margin-right: 10px;
+}
+
+.HEADER-header__price-wrapper {
+    margin-bottom: 8px;
+}
+
+.HEADER-hh-price {
+    margin-top: 8px;
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.HEADER-t-body-large {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.HEADER-t-header-currency {
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.HEADER-header__timer {
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+.HEADER-h-countdown__sections-wrapper {
+    display: inline-flex;
+}
+
+.HEADER-h-countdown__section {
+    display: inline-flex;
+}
+
+.HEADER-h-countdown__value {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.HEADER-h-countdown__card {
+    align-items: center;
+    background: #fff;
+    border: 1px solid #2f1c6a;
+    border-radius: 6px;
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    height: 64px;
+    justify-content: center;
+    width: 64px;
+}
+
+.HEADER-h-countdown__colon {
+    font-size: 18px;
+    margin: 16px 4px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.HEADER-h-features-header__button-wrapper {
+    display: flex;
+}
+
+.HEADER-hh-button {
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    min-height: 48px;
+    padding: 12px 16px;
+    position: relative;
+    text-align: center;
+    width: 291px;
+    margin: 24px auto;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .16);
+    background-color: #673de6;
+}
+
+.HEADER-hh-button:hover {
+    background-color: #5025d1;
+
+}
+
+.HEADER-header__features-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0 24px 0;
+    padding-bottom: 12px;
+}
+
+.HEADER-h-header-two-cols__right-col {
+    width: 100%;
+}
+
+.HEADER-h-features-header__image-wrapper {
+    position: relative;
+}
+
+.HEADER-h-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: end;
+}
+
+
+@media (min-width: 1025px) {
+    .HEADER-t-h2, h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .HEADER-hh-grid {
+        -moz-column-gap: 24px;
+        column-gap: 24px;
+        max-width: 1208px;
+    }
+
+    .HEADER-h-header-two-cols {
+        padding: 164px 0 96px;
+    }
+
+    .HEADER-h-grid--cols-t-1 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .HEADER-hh-features-header__info-wrapper {
+        text-align: start;
+    }
+
+    .HEADER-header__list {
+        align-items: flex-start;
+    }
+
+    .HEADER-hh-button {
+        margin: 24px 0 0 0;
+    }
+
+    .HEADER-header__features-list {
+        align-items: flex-start;
+    }
+
+    .HEADER-t-header-currency {
+        font-size: 48px;
+    }
+
+}

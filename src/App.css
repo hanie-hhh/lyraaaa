@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+body{ overflow-x: hidden;}
+* {
+    box-sizing: border-box;
+}
+
+p, a {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/*body, div, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {*/
+/*    border: 0;*/
+/*    font-weight: 100;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    text-decoration: none;*/
+/*    vertical-align: baseline;*/
+/*}*/
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    vertical-align: baseline;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+

@@ -1,0 +1,232 @@
+*{box-sizing: border-box;
+}
+.SECTION8-h-grid-item-container {
+    background-color: #673de6;
+    box-sizing: border-box;
+    font-family: "DM sans";
+    padding:1rem 1rem;
+    color: #fff;
+
+}
+
+.SECTION8-h-grid {
+    padding-top: 4em;
+    grid-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    /*max-width: 540px;*/
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 100%;
+}
+
+.SECTION8-h-features-reviews-section__features-wrapper {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.SECTION8-h-section-two-cols__left-col {
+    margin-bottom: 32px;
+    width: 100%;
+    padding-right:.5em;
+
+}
+
+.SECTION8-h-section-two-cols__left-col h2{
+    line-height: 40px;
+    margin-bottom: 32px;
+}
+
+.SECTION8-h-features-reviews-section__features-wrapper {
+    display: flex;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.SECTION8-h-features-reviews-section__feature-text p {
+    /*color: #727586;*/
+    margin: 0 0 0 16px;
+    vertical-align: baseline;
+    font-size:16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.SECTION8-h-features-reviews-section__feature-text{
+    margin-bottom: 24px;
+}
+
+.SECTION8-icon-check {
+    font-weight: 100;
+    /*color: #00b090;*/
+    width: 12px;
+    height: 24px;
+}
+
+
+.SECTION8-h-features-review-card--bg-ghost-white {
+    background-color: #5025d1;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding: 32px;
+    box-sizing: border-box;
+}
+.SECTION8-h-features-review-card__text{
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    height: auto;
+    font-size: 16px;
+}
+
+
+.SECTION8-h-features-review-card__icon {
+    margin-bottom: 16px;
+    max-width: 224px;
+    width: -moz-max-content;
+    width: max-content;
+
+}
+
+.SECTION8-h-section-two-cols__bottom-row {
+    padding: 16px;
+}
+
+.SECTION8-h-features-review-card__bottom-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.SECTION8-h-features-review-card__bottom-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.SECTION8-circle-q {
+    margin-left: 12px;
+    color: #727586;
+}
+
+
+.SECTION8-t-h2 {
+    font-size: 24px;
+}
+
+.SECTION8-h-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    max-width: 650px;
+    padding: 10px;
+}
+
+.SECTION8-h-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 110%;
+
+}
+
+.SECTION8-h-features-reviews-section__reviews-wrapper{
+    padding:26px;
+}
+
+@media (min-width: 1025px) {
+
+    .SECTION8-h-section-two-cols__wrapper{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .SECTION8-h-section-two-cols__right-col{
+        width: 100%;
+    }
+
+    .SECTION8-h-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        width: 110%;
+
+    }
+    .SECTION8-h-features-reviews-section h2 {
+        margin-bottom: 32px;
+
+    }
+    .SECTION8-t-h2 {
+        font-size: 36px;
+        text-align: start;
+    }
+
+    .SECTION8-t-h2{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .SECTION8-h-grid {
+        -moz-column-gap: 24px;
+        column-gap: 24px;
+        max-width: 1208px;
+    }
+
+
+    .SECTION8-h-grid--cols-t-1 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        /*padding:0;*/
+        margin-bottom: 40px;
+    }
+
+    .SECTION8-h-features-reviews-section__reviews-wrapper {
+
+        margin-top: 24px;
+        -moz-column-gap: 24px;
+        column-gap: 24px;
+        max-width: 1208px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .SECTION8-t-h2{
+        font-size: 28px;
+    }
+    .SECTION8-h-image {
+        width: 650px;
+        justify-content: center;
+    }
+
+
+}
+
+.SECTION8-h-grid--cols-t-1 {
+
+    align-items: center;
+
+    justify-content: space-between;
+    /*padding:0;*/
+    margin-bottom: 40px;
+}
